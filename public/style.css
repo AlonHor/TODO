@@ -52,10 +52,6 @@ input[type='checkbox'] {
   cursor: pointer;
 }
 
-input[type='checkbox']:checked {
-  cursor: cell;
-}
-
 li {
   font-size: 50px;
   display: block;
