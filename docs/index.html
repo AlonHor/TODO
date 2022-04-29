@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="Simple TODO list made with TS by Alon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TODO</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <form id="new-task-form">
+      <input
+        type="text"
+        placeholder="TODO"
+        id="new-task-title"
+        autocomplete="off"
+      />
+      <button type="submit">Add</button>
+      <button id="clear">Clear</button>
+    </form>
+    <ul id="list"></ul>
+    <script type="module" src="/dist/index.js"></script>
+  </body>
+</html>
+
+<!-- npx create-snowpack-app . --template @snowpack/app-template-blank-typescript --force -->
